@@ -1,0 +1,11 @@
+{
+  "method": "tcn",
+  "objective": "euclidean",
+  "seed": 20261012,
+  "best_epoch": 31,
+  "stop_epoch": 61,
+  "validation": 0.0015690449234992783,
+  "parameters": 23671,
+  "test": 0.0008016733608451475,
+  "min_eigenvalue": 4.334479100800846e-10
+}

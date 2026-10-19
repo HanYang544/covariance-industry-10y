@@ -1,0 +1,11 @@
+{
+  "method": "transformer",
+  "objective": "euclidean",
+  "seed": 20261014,
+  "best_epoch": 5,
+  "stop_epoch": 35,
+  "validation": 0.0015223330723169064,
+  "parameters": 13591,
+  "test": 0.0008150522309219309,
+  "min_eigenvalue": 1.0141749092371839e-05
+}

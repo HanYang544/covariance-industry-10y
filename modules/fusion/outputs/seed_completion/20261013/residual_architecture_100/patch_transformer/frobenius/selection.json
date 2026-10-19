@@ -1,0 +1,9 @@
+{
+  "method": "patch_transformer",
+  "objective": "frobenius",
+  "seed": 20261013,
+  "best_epoch": 15,
+  "stop_epoch": 45,
+  "validation": 0.0019489945527299587,
+  "parameters": 26391
+}

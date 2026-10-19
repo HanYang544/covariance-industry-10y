@@ -1,0 +1,8 @@
+{
+  "status": "training",
+  "method": "spectral_softplus",
+  "loss": "frobenius",
+  "lr": 0.001,
+  "seed": 20261013,
+  "seconds": 4091.070966720581
+}

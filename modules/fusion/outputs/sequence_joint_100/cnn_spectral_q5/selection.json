@@ -1,0 +1,98 @@
+[
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0019230104192506424
+  },
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0019211002790989768
+  },
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0019266965055619613
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0014713947251298422
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0014735676329333434
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0014768358445974112
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.0019339954727667157
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.0019142319551086991
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.0019680947433577526
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.001483944508107184
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.001465812162035432
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.0015001913182892434
+  }
+]

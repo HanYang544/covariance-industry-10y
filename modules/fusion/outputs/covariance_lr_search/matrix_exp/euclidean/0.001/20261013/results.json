@@ -1,0 +1,11 @@
+[
+  {
+    "method": "matrix_exp",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 29,
+    "stop_epoch": 59,
+    "validation": 0.0015050886618615034,
+    "parameters": 13591
+  }
+]

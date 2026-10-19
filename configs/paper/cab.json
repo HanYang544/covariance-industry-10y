@@ -1,0 +1,9 @@
+{
+  "family": "paper",
+  "encoder": "cab",
+  "input": "covariance",
+  "lr": 0.0001,
+  "max_epochs": 100,
+  "loss": "frobenius",
+  "seed": 20261012
+}

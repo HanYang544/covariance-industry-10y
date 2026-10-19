@@ -1,0 +1,110 @@
+[
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 0,
+    "stop_epoch": 30,
+    "validation": 0.0019303353712673257,
+    "test": 0.0009084965398566172
+  },
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 0,
+    "stop_epoch": 30,
+    "validation": 0.001925673019395859,
+    "test": 0.0009133454235691741
+  },
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 0,
+    "stop_epoch": 30,
+    "validation": 0.0019289946671244332,
+    "test": 0.0009091805842581296
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 0,
+    "stop_epoch": 30,
+    "validation": 0.0014809856122155185,
+    "test": 0.00073265647292131
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 0,
+    "stop_epoch": 30,
+    "validation": 0.0014770150538000438,
+    "test": 0.0007363160208541849
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0014768275527340523,
+    "test": 0.000730258076956534
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 4,
+    "stop_epoch": 34,
+    "validation": 0.0019460619182117766,
+    "test": 0.000919156589536886
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0019753569656197597,
+    "test": 0.0009619961912373707
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.002007635535915321,
+    "test": 0.0009460739972951405
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.001540573099517047,
+    "test": 0.0007505003944136495
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0015216955770222336,
+    "test": 0.0007749567732711112
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0015482664574286496,
+    "test": 0.0007658473675386166
+  }
+]

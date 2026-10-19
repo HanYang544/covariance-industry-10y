@@ -1,0 +1,98 @@
+[
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 3,
+    "stop_epoch": 33,
+    "validation": 0.0019058534387857186
+  },
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0019239727425167403
+  },
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 0,
+    "stop_epoch": 30,
+    "validation": 0.0019271791189240145
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 3,
+    "stop_epoch": 33,
+    "validation": 0.0014641579485026753
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0014750005183647899
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 0,
+    "stop_epoch": 30,
+    "validation": 0.0014784892609173198
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 6,
+    "stop_epoch": 36,
+    "validation": 0.0019272624595020214
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.001974873243168821
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 0,
+    "stop_epoch": 30,
+    "validation": 0.002040367056808689
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 6,
+    "stop_epoch": 36,
+    "validation": 0.001491940955860822
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.00152125141380997
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0015701634211425439
+  }
+]

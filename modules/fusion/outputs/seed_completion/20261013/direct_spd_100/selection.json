@@ -1,0 +1,92 @@
+[
+  {
+    "method": "cholesky",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 11,
+    "stop_epoch": 41,
+    "validation": 0.002074090829095324,
+    "parameters": 10583
+  },
+  {
+    "method": "cholesky",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 12,
+    "stop_epoch": 42,
+    "validation": 0.0016062283053885915,
+    "parameters": 10583
+  },
+  {
+    "method": "matrix_exp",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 15,
+    "stop_epoch": 45,
+    "validation": 0.002039304211641533,
+    "parameters": 10583
+  },
+  {
+    "method": "matrix_exp",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 16,
+    "stop_epoch": 46,
+    "validation": 0.0015878686685875064,
+    "parameters": 10583
+  },
+  {
+    "method": "spectral_softplus",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 8,
+    "stop_epoch": 38,
+    "validation": 0.002096211209698989,
+    "parameters": 10583
+  },
+  {
+    "method": "spectral_softplus",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 8,
+    "stop_epoch": 38,
+    "validation": 0.001624985726045463,
+    "parameters": 10583
+  },
+  {
+    "method": "variance_correlation",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 15,
+    "stop_epoch": 45,
+    "validation": 0.0020730066894075164,
+    "parameters": 10913
+  },
+  {
+    "method": "variance_correlation",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 14,
+    "stop_epoch": 44,
+    "validation": 0.001601942275325452,
+    "parameters": 10913
+  },
+  {
+    "method": "residual",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.0019668449459983965,
+    "parameters": 10583
+  },
+  {
+    "method": "residual",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.0015048244595374963,
+    "parameters": 10583
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "method": "gru",
+  "objective": "frobenius",
+  "seed": 20261014,
+  "best_epoch": 3,
+  "stop_epoch": 33,
+  "validation": 0.0021258136668269472,
+  "parameters": 14679
+}

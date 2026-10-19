@@ -1,0 +1,9 @@
+{
+  "fusion": "covariance",
+  "objective": "frobenius",
+  "seed": 20261014,
+  "best_epoch": 2,
+  "stop_epoch": 32,
+  "validation": 0.0018965236596946958,
+  "test": 0.0009056172704434599
+}

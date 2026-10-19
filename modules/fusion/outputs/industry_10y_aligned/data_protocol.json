@@ -1,0 +1,57 @@
+{
+  "source_sha256": "12e33cce09517c9a2bb38cf75d43b5a15e65238848e864145d06d456e170161d",
+  "assets": [
+    "NoDur",
+    "Durbl",
+    "Manuf",
+    "Enrgy",
+    "HiTec",
+    "Telcm",
+    "Shops",
+    "Hlth",
+    "Utils",
+    "Other"
+  ],
+  "training": "2008-2017 ten complete calendar years, fixed fit not annual rolling refit",
+  "validation": "2018-2020",
+  "test": "2021-2025",
+  "preprocessing": "Original French fractional RAW returns retained; unlike ETF excess returns, no new riskfree subtraction",
+  "warmup": "2003-2007 past-only inputs and recursive initialization; not supervised training; same historical start as original industry experiment",
+  "aligned": "centered future20 covariance ddof1; DAILY sampling all splits; centered sklearn LW + relative jitter1e-8",
+  "unchanged": "six features k3, 20/120 windows, 10 experts, EWMA/IEWMA/calibration definitions; architecture and own-family optimizer retained",
+  "counts": {
+    "train": 2498,
+    "validation": 736,
+    "test": 1235
+  },
+  "boundaries": {
+    "train": {
+      "first": "2008-01-02",
+      "last": "2017-11-30",
+      "last_label": "2017-12-29"
+    },
+    "validation": {
+      "first": "2018-01-02",
+      "last": "2020-12-02",
+      "last_label": "2020-12-31"
+    },
+    "test": {
+      "first": "2021-01-04",
+      "last": "2025-12-02",
+      "last_label": "2025-12-31"
+    }
+  },
+  "source_code_sha256": "c9d2df6223f771417a398436e3efc44419004f0b2e45b076b9e92433ee7fcbdf",
+  "input_sha256": {
+    "baselines.npz": "aec5e9328feb51a1ed7f120de75b25794b7ce13bc98e1d52cff307b73ae74299",
+    "inputs_test.npz": "59d7086ab71925dff8525372b8c052f12eef993681357c4a0782ce8b6ac6b995",
+    "inputs_train.npz": "ebf69cddf677560c9de53913cd187cb66cbc7990a6130d3c760cd9b625d31a2c",
+    "inputs_validation.npz": "29de9c452b658e2a365c14da257493e17954b20345269c0f4e9fbdb20ff8f574",
+    "scaler.npz": "b1edb9e25abf851da8f77054c1b6f9661553ac27ade6102af9c1ea4acaadc898",
+    "timeline.npz": "9f53c9d440cc10ff59b577340221d2831ed27926d47575e1fa03a103ce5068f1",
+    "cab\\scaler.npz": "d3455e94269d2830330c8e77926f4b1f5ad1b1837b83034683a4e324fb83558d",
+    "cab\\test.npz": "841f140c797e0878370e4c5bbde7156592e4b38d4eda58bcbdb3acdebbcbcda6",
+    "cab\\train.npz": "c45db19b345547d648bdf6052b907c94818948aa89371cc19a63dd595d3a3f76",
+    "cab\\validation.npz": "cbea4613cc892f151029901fa73e1fc3b1f01efe0ca33b6298d8086bffb1099c"
+  }
+}

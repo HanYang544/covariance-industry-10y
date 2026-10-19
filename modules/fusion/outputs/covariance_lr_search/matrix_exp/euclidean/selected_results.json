@@ -1,0 +1,38 @@
+{
+  "lr": 0.01,
+  "records": [
+    {
+      "method": "matrix_exp",
+      "objective": "euclidean",
+      "seed": 20261012,
+      "best_epoch": 74,
+      "stop_epoch": 104,
+      "validation": 0.0014778280871264695,
+      "parameters": 13591,
+      "test": 0.0009511689832165991,
+      "min_eigenvalue": 4.426249517524079e-07
+    },
+    {
+      "method": "matrix_exp",
+      "objective": "euclidean",
+      "seed": 20261013,
+      "best_epoch": 87,
+      "stop_epoch": 117,
+      "validation": 0.0014830646243893552,
+      "parameters": 13591,
+      "test": 0.0010330266046404833,
+      "min_eigenvalue": 2.3553002735986114e-07
+    },
+    {
+      "method": "matrix_exp",
+      "objective": "euclidean",
+      "seed": 20261014,
+      "best_epoch": 21,
+      "stop_epoch": 51,
+      "validation": 0.0014779094716702763,
+      "parameters": 13591,
+      "test": 0.0010134274878147494,
+      "min_eigenvalue": 9.041161066918966e-06
+    }
+  ]
+}

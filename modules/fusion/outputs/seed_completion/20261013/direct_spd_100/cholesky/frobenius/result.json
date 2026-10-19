@@ -1,0 +1,11 @@
+{
+  "method": "cholesky",
+  "objective": "frobenius",
+  "seed": 20261013,
+  "best_epoch": 11,
+  "stop_epoch": 41,
+  "validation": 0.002074090829095324,
+  "parameters": 10583,
+  "test": 0.001227374744428406,
+  "min_eigenvalue": 1.4576190810417794e-06
+}

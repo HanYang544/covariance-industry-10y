@@ -1,0 +1,38 @@
+[
+  {
+    "fusion": "precision",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0019090089876031453,
+    "test": 0.0009007103542178902
+  },
+  {
+    "fusion": "precision",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0014646755681484447,
+    "test": 0.0007265396586831346
+  },
+  {
+    "fusion": "covariance",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.0018965236596946958,
+    "test": 0.0009056172704434599
+  },
+  {
+    "fusion": "covariance",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 2,
+    "stop_epoch": 32,
+    "validation": 0.001450160777302625,
+    "test": 0.0007341260141387224
+  }
+]

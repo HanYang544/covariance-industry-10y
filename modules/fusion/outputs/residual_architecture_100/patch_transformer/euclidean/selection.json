@@ -1,0 +1,9 @@
+{
+  "method": "patch_transformer",
+  "objective": "euclidean",
+  "seed": 20261012,
+  "best_epoch": 4,
+  "stop_epoch": 34,
+  "validation": 0.0015329285031150308,
+  "parameters": 26391
+}

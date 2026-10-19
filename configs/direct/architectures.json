@@ -1,0 +1,10 @@
+{
+  "family": "direct",
+  "encoder": "cnn",
+  "input": "covariance",
+  "head": "residual",
+  "loss": "frobenius",
+  "seed": 20261012,
+  "lr": 0.01,
+  "max_epochs": 500
+}

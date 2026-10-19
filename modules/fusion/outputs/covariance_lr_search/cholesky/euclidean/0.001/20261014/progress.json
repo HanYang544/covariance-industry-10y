@@ -1,0 +1,12 @@
+{
+  "method": "cholesky",
+  "objective": "euclidean",
+  "seed": 20261014,
+  "lr": 0.001,
+  "epoch": 60,
+  "best_epoch": 39,
+  "validation": 0.0017337296565500212,
+  "selected": 0,
+  "total": 1,
+  "seconds": 40.73511290550232
+}

@@ -1,0 +1,36 @@
+{
+  "history": 100,
+  "features": 6,
+  "experts": 10,
+  "calibration": false,
+  "refinement": false,
+  "dimension": 32,
+  "dropout": 0,
+  "optimizer": "Adam",
+  "lr": 0.01,
+  "batch": "full batch gradients accumulated in microbatches of 128",
+  "epochs": 500,
+  "patience": 30,
+  "min_delta": 1e-12,
+  "epoch0": true,
+  "dtype": "float64",
+  "seeds": [
+    20261012,
+    20261013,
+    20261014
+  ],
+  "source": "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned",
+  "hashes": {
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\inputs_train.npz": "ebf69cddf677560c9de53913cd187cb66cbc7990a6130d3c760cd9b625d31a2c",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\inputs_validation.npz": "29de9c452b658e2a365c14da257493e17954b20345269c0f4e9fbdb20ff8f574",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\inputs_test.npz": "59d7086ab71925dff8525372b8c052f12eef993681357c4a0782ce8b6ac6b995",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\raw_features.csv": "bece14ff9d7ae6c5b2e348e5df9bb76a5e61ea3149ae0a4bf63e2e1e87eb797d",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\scaler.npz": "b1edb9e25abf851da8f77054c1b6f9661553ac27ade6102af9c1ea4acaadc898",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\experiments\\holdout\\run_temporal_gate.py": "46d266f0073c9a6dafd86264f6127639ac01972f0ad55511279e1ccd3593037d",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\src\\portfolio_risk\\models\\temporal_gate.py": "07ae636f997aa25e8dac4d306526b1db2b07cb49b6acd80ec7be3fad19365036",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\experiments\\holdout\\run_sequence_supplement.py": "d6fc48daeb7f0ae244d02d6c7bb4697ac7431d549f493938b72f5b5ab7b107ce",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\src\\portfolio_risk\\models\\sequence_gates.py": "1f9aa8f3b141be5042592c4ef60b2e0041e10abd3ee4a9832b20ab9fc5f6e9ad"
+  },
+  "architecture": "mlp",
+  "structure": "Flatten600-64-ReLU-32-ReLU-10"
+}

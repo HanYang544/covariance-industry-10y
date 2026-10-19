@@ -1,0 +1,52 @@
+{
+  "methods": [
+    "matrix_exp"
+  ],
+  "objectives": [
+    "frobenius"
+  ],
+  "seed": 20261014,
+  "history": 100,
+  "features": 100,
+  "input_shape": [
+    100,
+    10,
+    10
+  ],
+  "covariance_window": 20,
+  "input_scaling": "per-entry mean/std fitted on training histories only; no clipping",
+  "test_policy": "select learning rate using three-seed mean validation only; score test only after LR locked",
+  "assets": 10,
+  "hidden": 32,
+  "heads": 4,
+  "layers": 1,
+  "ffn": 64,
+  "dropout": 0,
+  "pooling": "last token",
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "max_epochs": 500,
+  "patience": 30,
+  "epoch0": true,
+  "min_delta": 1e-12,
+  "dtype": "float64",
+  "batch": "full gradient accumulated in128 microbatches",
+  "unit": 0.0002053323013631958,
+  "unit_definition": "mean training-target diagonal, scalar output unit only; losses remain raw covariance units",
+  "residual_base": "centered LW60 symmetric square root, fixed data-derived input",
+  "spectral_gradient": "Loewner divided differences with sigmoid midpoint limit for gaps below1e-7",
+  "initialization": "heads std0.001; pure heads near unit*I, residual zero head gives exact LW60",
+  "hashes": {
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\inputs_train.npz": "ebf69cddf677560c9de53913cd187cb66cbc7990a6130d3c760cd9b625d31a2c",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\inputs_validation.npz": "29de9c452b658e2a365c14da257493e17954b20345269c0f4e9fbdb20ff8f574",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\inputs_test.npz": "59d7086ab71925dff8525372b8c052f12eef993681357c4a0782ce8b6ac6b995",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\cab\\scaler.npz": "d3455e94269d2830330c8e77926f4b1f5ad1b1837b83034683a4e324fb83558d",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\experiments\\holdout\\covariance_lr_worker.py": "4c50cdedbb9cfde8dd55109587302a1641f56e371ea441d188edc547415a4f96",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\src\\portfolio_risk\\models\\covariance_spd.py": "5c6d2c260b51a00f989d35bd2ce25acb094a03b36182d15b12499ac8023a68eb",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\src\\portfolio_risk\\models\\direct_spd.py": "cbee2506d0dbe78b74cd4bb9133bc49ef357875bd6847a95a3c907ea047f6383",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\src\\portfolio_risk\\models\\temporal_gate.py": "07ae636f997aa25e8dac4d306526b1db2b07cb49b6acd80ec7be3fad19365036",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\cab\\train.npz": "c45db19b345547d648bdf6052b907c94818948aa89371cc19a63dd595d3a3f76",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\cab\\validation.npz": "cbea4613cc892f151029901fa73e1fc3b1f01efe0ca33b6298d8086bffb1099c",
+    "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\industry_10y_aligned\\cab\\test.npz": "841f140c797e0878370e4c5bbde7156592e4b38d4eda58bcbdb3acdebbcbcda6"
+  }
+}

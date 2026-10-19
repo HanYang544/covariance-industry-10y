@@ -1,0 +1,11 @@
+{
+  "family": "fusion",
+  "encoder": "cnn",
+  "fusion": "precision",
+  "refinement": "spectral",
+  "q": 1,
+  "loss": "frobenius",
+  "seed": 20261012,
+  "lr": 0.01,
+  "max_epochs": 500
+}

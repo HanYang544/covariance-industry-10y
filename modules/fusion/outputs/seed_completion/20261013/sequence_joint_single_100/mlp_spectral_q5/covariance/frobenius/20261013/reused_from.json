@@ -1,0 +1,5 @@
+{
+  "source": "E:\\Codex\\Workspaces\\covariance-industry-10y\\modules\\fusion\\outputs\\sequence_joint_100\\mlp_spectral_q5\\covariance\\frobenius\\20261013",
+  "checkpoint_sha256": "b7997f3d23de2f8f9cdc5ff49f3a2389fafe464c5eba2f293f73fb4b58a1beb3",
+  "verification": "matching frozen training protocol, data/model digests; test will be recomputed"
+}

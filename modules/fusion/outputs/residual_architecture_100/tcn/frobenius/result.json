@@ -1,0 +1,11 @@
+{
+  "method": "tcn",
+  "objective": "frobenius",
+  "seed": 20261012,
+  "best_epoch": 38,
+  "stop_epoch": 68,
+  "validation": 0.0020230354710110052,
+  "parameters": 23671,
+  "test": 0.0009845166783449732,
+  "min_eigenvalue": 2.75262283572946e-10
+}

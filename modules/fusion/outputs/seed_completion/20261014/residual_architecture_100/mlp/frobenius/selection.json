@@ -1,0 +1,9 @@
+{
+  "method": "mlp",
+  "objective": "frobenius",
+  "seed": 20261014,
+  "best_epoch": 1,
+  "stop_epoch": 31,
+  "validation": 0.0019372658707865077,
+  "parameters": 643959
+}

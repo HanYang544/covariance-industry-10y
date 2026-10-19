@@ -1,0 +1,10 @@
+{
+  "method": "patch_transformer",
+  "objective": "euclidean",
+  "epoch": 30,
+  "best_epoch": 3,
+  "validation": 0.0016064186888471643,
+  "selected": 11,
+  "total": 12,
+  "seconds": 779.6804187297821
+}

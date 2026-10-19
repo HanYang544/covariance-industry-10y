@@ -1,0 +1,7 @@
+{
+  "objective": "frobenius",
+  "seed": 20261013,
+  "best_epoch": 31,
+  "stop_epoch": 61,
+  "validation": 0.0018644072030718551
+}

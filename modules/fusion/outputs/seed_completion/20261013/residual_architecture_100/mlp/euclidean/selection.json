@@ -1,0 +1,9 @@
+{
+  "method": "mlp",
+  "objective": "euclidean",
+  "seed": 20261013,
+  "best_epoch": 1,
+  "stop_epoch": 31,
+  "validation": 0.001517310815306372,
+  "parameters": 643959
+}

@@ -1,0 +1,59 @@
+project:
+  name: multiscale-portfolio-risk
+  seed: 1
+  output_dir: outputs
+
+data:
+  datasets:
+    - industry_10
+    - industry_49
+  raw_dir: data/raw
+  processed_dir: data/processed
+  return_unit: decimal
+  missing_markers: [-99.99, -999.0]
+  splits:
+    train: ["2005-01-01", "2017-12-31"]
+    validation: ["2018-01-01", "2020-12-31"]
+    test: ["2021-01-01", "2025-12-31"]
+
+forecast:
+  horizon: 20
+  lookback_windows: [20, 60, 120, 252]
+  train_stride: 5
+  validation_stride: 20
+  test_stride: 20
+
+covariance:
+  estimator: ledoit_wolf
+  assume_zero_mean: true
+  numerical_epsilon: 1.0e-8
+
+features:
+  market_state: true
+  historical_reliability: true
+  reliability_window: 60
+  standardize_on: train
+
+model:
+  type: mlp_gate
+  hidden_dim: 16
+  activation: relu
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-4
+  batch_size: 32
+  max_epochs: 100
+  early_stopping_patience: 15
+
+backtest:
+  rebalance_every: 20
+  long_only: true
+  fully_invested: true
+  execution_lag_days: 0
+  transaction_cost_bps: [0, 5, 10]
+
+evaluation:
+  primary_forecast_metric: gaussian_nll
+  primary_portfolio_metric: annualized_volatility
+  random_seeds: [1, 2, 3, 4, 5]
+  bootstrap_confidence: 0.95
+

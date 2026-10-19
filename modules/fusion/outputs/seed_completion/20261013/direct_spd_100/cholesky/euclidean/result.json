@@ -1,0 +1,11 @@
+{
+  "method": "cholesky",
+  "objective": "euclidean",
+  "seed": 20261013,
+  "best_epoch": 12,
+  "stop_epoch": 42,
+  "validation": 0.0016062283053885915,
+  "parameters": 10583,
+  "test": 0.0010233381942108873,
+  "min_eigenvalue": 1.516495514931194e-06
+}

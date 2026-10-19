@@ -1,0 +1,11 @@
+{
+  "method": "residual",
+  "objective": "frobenius",
+  "seed": 20261014,
+  "best_epoch": 43,
+  "stop_epoch": 73,
+  "validation": 0.0019520668286711208,
+  "parameters": 13591,
+  "test": 0.0009491455942595365,
+  "min_eigenvalue": 7.655048622778206e-06
+}

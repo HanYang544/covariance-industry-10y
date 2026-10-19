@@ -1,0 +1,134 @@
+[
+  {
+    "method": "transformer",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 20,
+    "stop_epoch": 50,
+    "validation": 0.0020070340070124306,
+    "parameters": 13591,
+    "test": 0.0009884933595428998,
+    "min_eigenvalue": 1.261280158709759e-07
+  },
+  {
+    "method": "transformer",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 28,
+    "stop_epoch": 58,
+    "validation": 0.0014876347798530795,
+    "parameters": 13591,
+    "test": 0.0007648233071976936,
+    "min_eigenvalue": 4.982686032271925e-08
+  },
+  {
+    "method": "mlp",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0019715251353485757,
+    "parameters": 643959,
+    "test": 0.0009762098595389656,
+    "min_eigenvalue": 1.0096052908788847e-05
+  },
+  {
+    "method": "mlp",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.001517310815306372,
+    "parameters": 643959,
+    "test": 0.0007826627004232649,
+    "min_eigenvalue": 1.0099584799329133e-05
+  },
+  {
+    "method": "cnn",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 4,
+    "stop_epoch": 34,
+    "validation": 0.0019304478045153374,
+    "parameters": 22999,
+    "test": 0.0009661967582549504,
+    "min_eigenvalue": 1.0095498014947251e-05
+  },
+  {
+    "method": "cnn",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 8,
+    "stop_epoch": 38,
+    "validation": 0.0014879968802892435,
+    "parameters": 22999,
+    "test": 0.000778346885181709,
+    "min_eigenvalue": 1.0086387905230314e-05
+  },
+  {
+    "method": "tcn",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 22,
+    "stop_epoch": 52,
+    "validation": 0.0020169637997465364,
+    "parameters": 23671,
+    "test": 0.0009844979290436712,
+    "min_eigenvalue": 4.682483668205594e-07
+  },
+  {
+    "method": "tcn",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 25,
+    "stop_epoch": 55,
+    "validation": 0.0015241171874659906,
+    "parameters": 23671,
+    "test": 0.0007675710062944074,
+    "min_eigenvalue": 5.546364206989744e-07
+  },
+  {
+    "method": "gru",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 15,
+    "stop_epoch": 45,
+    "validation": 0.0020691881239037193,
+    "parameters": 14679,
+    "test": 0.000975638931014442,
+    "min_eigenvalue": 1.0092784146339797e-05
+  },
+  {
+    "method": "gru",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 14,
+    "stop_epoch": 44,
+    "validation": 0.001544628860913447,
+    "parameters": 14679,
+    "test": 0.0007929035328260607,
+    "min_eigenvalue": 1.0048754822354668e-05
+  },
+  {
+    "method": "patch_transformer",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 15,
+    "stop_epoch": 45,
+    "validation": 0.0019489945527299587,
+    "parameters": 26391,
+    "test": 0.0009813655634483087,
+    "min_eigenvalue": 1.0060106201992327e-05
+  },
+  {
+    "method": "patch_transformer",
+    "objective": "euclidean",
+    "seed": 20261013,
+    "best_epoch": 6,
+    "stop_epoch": 36,
+    "validation": 0.0015352649881741072,
+    "parameters": 26391,
+    "test": 0.0008160800254785921,
+    "min_eigenvalue": 1.0018830304728963e-05
+  }
+]

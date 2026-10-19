@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pt
+*.npz
+*.log
+# Local directory junctions; canonical files live under modules/fusion.
+/data/raw
+/data/frozen
+/outputs/statistical
+/outputs/replicates
+/outputs/direct/architectures
+/outputs/direct/covariance_heads
+/outputs/direct/feature_heads
+/outputs/direct/learning_rates
+/outputs/fusion/refinement
+/outputs/fusion/gating/cnn
+/outputs/fusion/gating/mlp
+/outputs/fusion/gating/transformer
+/outputs/paper/cab

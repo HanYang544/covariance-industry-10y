@@ -1,0 +1,9 @@
+{
+  "fusion": "precision",
+  "objective": "frobenius",
+  "seed": 20261012,
+  "best_epoch": 1,
+  "stop_epoch": 31,
+  "validation": 0.001895685330653927,
+  "test": 0.0009531475887377308
+}

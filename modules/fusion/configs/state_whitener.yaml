@@ -1,0 +1,20 @@
+# Research-derived, predeclared rolling-origin experiment. All later periods are exploratory.
+base_config: configs/preliminary.yaml
+output_dir: outputs/state_whitener
+iewma_half_lives: [[21, 63], [63, 125], [125, 250], [250, 500], [500, 1000]]
+standardized_return_clip: 4.2
+fast_diagonal_inflation: 0.05
+reliability_window: 60
+training_history_years: 10
+validation_years: [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+evaluation_years: [2021, 2022, 2023, 2024, 2025, 2026]
+candidate_modes: [global, market, reliability, joint]
+state_counts: [2, 4]
+ridge_strengths: [0.03, 0.3]
+calibration: [false, true]
+calibration_ridge: 0.1
+feature_clip: 3.0
+pca_components: 6
+selection_std_penalty: 0.25
+cm_lookback: 10
+seed: 20261012

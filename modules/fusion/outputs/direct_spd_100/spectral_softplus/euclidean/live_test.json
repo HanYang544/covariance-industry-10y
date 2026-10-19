@@ -1,0 +1,11 @@
+{
+  "method": "spectral_softplus",
+  "objective": "euclidean",
+  "seed": 20261012,
+  "best_epoch": 34,
+  "stop_epoch": 64,
+  "validation": 0.001629174422281047,
+  "parameters": 10583,
+  "test": 0.001065583997761152,
+  "evaluation": "CPU float64 incremental evaluation after this run validation selection; training unchanged"
+}

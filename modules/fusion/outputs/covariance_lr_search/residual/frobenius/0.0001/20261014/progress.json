@@ -1,0 +1,12 @@
+{
+  "method": "residual",
+  "objective": "frobenius",
+  "seed": 20261014,
+  "lr": 0.0001,
+  "epoch": 180,
+  "best_epoch": 150,
+  "validation": 0.001949821182232892,
+  "selected": 0,
+  "total": 1,
+  "seconds": 127.95101976394653
+}

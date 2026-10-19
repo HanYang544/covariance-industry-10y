@@ -1,0 +1,11 @@
+{
+  "method": "cnn",
+  "objective": "frobenius",
+  "seed": 20261012,
+  "best_epoch": 17,
+  "stop_epoch": 47,
+  "validation": 0.0019077973730934272,
+  "parameters": 22999,
+  "test": 0.0009645436468215851,
+  "min_eigenvalue": 9.904409061722638e-06
+}

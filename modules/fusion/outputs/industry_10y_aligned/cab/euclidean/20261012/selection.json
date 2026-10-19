@@ -1,0 +1,7 @@
+{
+  "objective": "euclidean",
+  "seed": 20261012,
+  "best_epoch": 29,
+  "stop_epoch": 59,
+  "validation": 0.0014351796869643755
+}

@@ -1,0 +1,11 @@
+{
+  "method": "gru",
+  "objective": "euclidean",
+  "seed": 20261012,
+  "best_epoch": 7,
+  "stop_epoch": 37,
+  "validation": 0.0015670970891213374,
+  "parameters": 14679,
+  "test": 0.0007933090697326285,
+  "min_eigenvalue": 1.0056724367943085e-05
+}

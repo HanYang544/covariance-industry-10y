@@ -1,0 +1,132 @@
+{
+  "configurations": [
+    {
+      "id": "mlp_spectral_q1",
+      "architecture": "mlp",
+      "variant": "spectral",
+      "q": 1
+    },
+    {
+      "id": "mlp_spectral_q3",
+      "architecture": "mlp",
+      "variant": "spectral",
+      "q": 3
+    },
+    {
+      "id": "mlp_spectral_q5",
+      "architecture": "mlp",
+      "variant": "spectral",
+      "q": 5
+    },
+    {
+      "id": "mlp_learned_q1",
+      "architecture": "mlp",
+      "variant": "learned",
+      "q": 1
+    },
+    {
+      "id": "mlp_learned_q3",
+      "architecture": "mlp",
+      "variant": "learned",
+      "q": 3
+    },
+    {
+      "id": "mlp_learned_q5",
+      "architecture": "mlp",
+      "variant": "learned",
+      "q": 5
+    },
+    {
+      "id": "mlp_idea2_q10",
+      "architecture": "mlp",
+      "variant": "idea2",
+      "q": 10
+    },
+    {
+      "id": "cnn_spectral_q1",
+      "architecture": "cnn",
+      "variant": "spectral",
+      "q": 1
+    },
+    {
+      "id": "cnn_spectral_q3",
+      "architecture": "cnn",
+      "variant": "spectral",
+      "q": 3
+    },
+    {
+      "id": "cnn_spectral_q5",
+      "architecture": "cnn",
+      "variant": "spectral",
+      "q": 5
+    },
+    {
+      "id": "cnn_learned_q1",
+      "architecture": "cnn",
+      "variant": "learned",
+      "q": 1
+    },
+    {
+      "id": "cnn_learned_q3",
+      "architecture": "cnn",
+      "variant": "learned",
+      "q": 3
+    },
+    {
+      "id": "cnn_learned_q5",
+      "architecture": "cnn",
+      "variant": "learned",
+      "q": 5
+    },
+    {
+      "id": "cnn_idea2_q10",
+      "architecture": "cnn",
+      "variant": "idea2",
+      "q": 10
+    },
+    {
+      "id": "transformer_spectral_q1",
+      "architecture": "transformer",
+      "variant": "spectral",
+      "q": 1
+    },
+    {
+      "id": "transformer_spectral_q3",
+      "architecture": "transformer",
+      "variant": "spectral",
+      "q": 3
+    },
+    {
+      "id": "transformer_spectral_q5",
+      "architecture": "transformer",
+      "variant": "spectral",
+      "q": 5
+    },
+    {
+      "id": "transformer_learned_q1",
+      "architecture": "transformer",
+      "variant": "learned",
+      "q": 1
+    },
+    {
+      "id": "transformer_learned_q3",
+      "architecture": "transformer",
+      "variant": "learned",
+      "q": 3
+    },
+    {
+      "id": "transformer_learned_q5",
+      "architecture": "transformer",
+      "variant": "learned",
+      "q": 5
+    },
+    {
+      "id": "transformer_idea2_q10",
+      "architecture": "transformer",
+      "variant": "idea2",
+      "q": 10
+    }
+  ],
+  "total_fits": 252,
+  "selection": "Each configuration locks all12 validation checkpoints before its test evaluation; entire grid fixed before any testing"
+}

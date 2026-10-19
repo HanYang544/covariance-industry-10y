@@ -1,0 +1,11 @@
+[
+  {
+    "method": "matrix_exp",
+    "objective": "frobenius",
+    "seed": 20261013,
+    "best_epoch": 136,
+    "stop_epoch": 166,
+    "validation": 0.0019792766978085664,
+    "parameters": 13591
+  }
+]

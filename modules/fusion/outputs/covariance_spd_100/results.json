@@ -1,0 +1,112 @@
+[
+  {
+    "method": "cholesky",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 12,
+    "stop_epoch": 42,
+    "validation": 0.001961574988724511,
+    "parameters": 13591,
+    "test": 0.0011727934488952982,
+    "min_eigenvalue": 2.3240371084659613e-06
+  },
+  {
+    "method": "cholesky",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 13,
+    "stop_epoch": 43,
+    "validation": 0.0014883187067982557,
+    "parameters": 13591,
+    "test": 0.000995514268686171,
+    "min_eigenvalue": 1.7473559821433825e-06
+  },
+  {
+    "method": "matrix_exp",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 23,
+    "stop_epoch": 53,
+    "validation": 0.0018853902122071245,
+    "parameters": 13591,
+    "test": 0.0012002819373410963,
+    "min_eigenvalue": 4.1403863771396065e-06
+  },
+  {
+    "method": "matrix_exp",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 74,
+    "stop_epoch": 104,
+    "validation": 0.0014778280871264695,
+    "parameters": 13591,
+    "test": 0.0009511689832165991,
+    "min_eigenvalue": 4.426249517524079e-07
+  },
+  {
+    "method": "spectral_softplus",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 15,
+    "stop_epoch": 45,
+    "validation": 0.0019573826249123013,
+    "parameters": 13591,
+    "test": 0.0011696901941760328,
+    "min_eigenvalue": 2.1594583314928876e-06
+  },
+  {
+    "method": "spectral_softplus",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 17,
+    "stop_epoch": 47,
+    "validation": 0.0015148398305412586,
+    "parameters": 13591,
+    "test": 0.0009717597101574137,
+    "min_eigenvalue": 8.439619774338833e-07
+  },
+  {
+    "method": "variance_correlation",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 14,
+    "stop_epoch": 44,
+    "validation": 0.0019489647807875389,
+    "parameters": 13921,
+    "test": 0.0012301195722242604,
+    "min_eigenvalue": 1.0919450699054738e-09
+  },
+  {
+    "method": "variance_correlation",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 13,
+    "stop_epoch": 43,
+    "validation": 0.0015262447762454995,
+    "parameters": 13921,
+    "test": 0.0010559375714811166,
+    "min_eigenvalue": 1.711415793632287e-09
+  },
+  {
+    "method": "residual",
+    "objective": "frobenius",
+    "seed": 20261012,
+    "best_epoch": 76,
+    "stop_epoch": 106,
+    "validation": 0.0019229463687760527,
+    "parameters": 13591,
+    "test": 0.0009558082729477339,
+    "min_eigenvalue": 8.200853249465155e-06
+  },
+  {
+    "method": "residual",
+    "objective": "euclidean",
+    "seed": 20261012,
+    "best_epoch": 10,
+    "stop_epoch": 40,
+    "validation": 0.0015216055337929535,
+    "parameters": 13591,
+    "test": 0.0008330101419134845,
+    "min_eigenvalue": 1.0281424600758013e-05
+  }
+]

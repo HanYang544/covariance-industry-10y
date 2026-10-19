@@ -1,0 +1,9 @@
+{
+  "method": "spectral_softplus",
+  "objective": "frobenius",
+  "seed": 20261014,
+  "best_epoch": 71,
+  "stop_epoch": 101,
+  "validation": 0.001993135993579551,
+  "parameters": 10583
+}

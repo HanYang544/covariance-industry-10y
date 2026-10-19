@@ -1,0 +1,38 @@
+{
+  "lr": 0.01,
+  "records": [
+    {
+      "method": "cholesky",
+      "objective": "euclidean",
+      "seed": 20261012,
+      "best_epoch": 13,
+      "stop_epoch": 43,
+      "validation": 0.0014883187067982557,
+      "parameters": 13591,
+      "test": 0.000995514268686171,
+      "min_eigenvalue": 1.7473559821433825e-06
+    },
+    {
+      "method": "cholesky",
+      "objective": "euclidean",
+      "seed": 20261013,
+      "best_epoch": 12,
+      "stop_epoch": 42,
+      "validation": 0.001492547561343121,
+      "parameters": 13591,
+      "test": 0.0010468552034415483,
+      "min_eigenvalue": 7.745976223282165e-07
+    },
+    {
+      "method": "cholesky",
+      "objective": "euclidean",
+      "seed": 20261014,
+      "best_epoch": 9,
+      "stop_epoch": 39,
+      "validation": 0.0014976616920026014,
+      "parameters": 13591,
+      "test": 0.0010030013118770549,
+      "min_eigenvalue": 1.80552417801605e-06
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "method": "variance_correlation",
+  "objective": "euclidean",
+  "seed": 20261014,
+  "best_epoch": 12,
+  "stop_epoch": 42,
+  "validation": 0.0016091885719058516,
+  "parameters": 10913
+}

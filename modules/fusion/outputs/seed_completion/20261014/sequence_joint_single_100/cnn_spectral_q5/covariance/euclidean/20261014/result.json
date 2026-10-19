@@ -1,0 +1,9 @@
+{
+  "fusion": "covariance",
+  "objective": "euclidean",
+  "seed": 20261014,
+  "best_epoch": 2,
+  "stop_epoch": 32,
+  "validation": 0.0015001913182892434,
+  "test": 0.000734699507354712
+}

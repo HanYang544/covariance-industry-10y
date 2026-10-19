@@ -1,0 +1,24 @@
+{
+  "assets": 10,
+  "train": "2008-2017",
+  "validation": "2018-2020",
+  "test": "2021-2025",
+  "history": 100,
+  "target": {
+    "horizon": 20,
+    "center": true,
+    "ddof": 1
+  },
+  "features": 6,
+  "top_k": 3,
+  "seeds": [
+    20261012,
+    20261013,
+    20261014
+  ],
+  "losses": [
+    "frobenius",
+    "euclidean"
+  ],
+  "note": "Reference metadata; frozen files remain authoritative. Example configs are single explicit runs, not new tuned defaults."
+}

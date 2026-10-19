@@ -1,0 +1,37 @@
+{
+  "history": 100,
+  "features": 6,
+  "experts": 10,
+  "calibration": false,
+  "refinement": false,
+  "dimension": 32,
+  "heads": 4,
+  "layers": 1,
+  "feedforward": 64,
+  "dropout": 0,
+  "pooling": "last token",
+  "positional_encoding": "sinusoidal",
+  "optimizer": "Adam",
+  "lr": 0.01,
+  "batch": "full batch gradients accumulated in microbatches of 128",
+  "epochs": 500,
+  "patience": 30,
+  "min_delta": 1e-12,
+  "epoch0": true,
+  "dtype": "float64",
+  "seeds": [
+    20261012,
+    20261013,
+    20261014
+  ],
+  "source": "E:\\Codex\\Workspaces\\covariance-research-suite\\modules\\fusion\\outputs\\industry_10y_aligned",
+  "hashes": {
+    "E:\\Codex\\Workspaces\\covariance-research-suite\\modules\\fusion\\outputs\\industry_10y_aligned\\inputs_train.npz": "ebf69cddf677560c9de53913cd187cb66cbc7990a6130d3c760cd9b625d31a2c",
+    "E:\\Codex\\Workspaces\\covariance-research-suite\\modules\\fusion\\outputs\\industry_10y_aligned\\inputs_validation.npz": "29de9c452b658e2a365c14da257493e17954b20345269c0f4e9fbdb20ff8f574",
+    "E:\\Codex\\Workspaces\\covariance-research-suite\\modules\\fusion\\outputs\\industry_10y_aligned\\inputs_test.npz": "59d7086ab71925dff8525372b8c052f12eef993681357c4a0782ce8b6ac6b995",
+    "E:\\Codex\\Workspaces\\covariance-research-suite\\modules\\fusion\\outputs\\industry_10y_aligned\\raw_features.csv": "bece14ff9d7ae6c5b2e348e5df9bb76a5e61ea3149ae0a4bf63e2e1e87eb797d",
+    "E:\\Codex\\Workspaces\\covariance-research-suite\\modules\\fusion\\outputs\\industry_10y_aligned\\scaler.npz": "b1edb9e25abf851da8f77054c1b6f9661553ac27ade6102af9c1ea4acaadc898",
+    "E:\\Codex\\Workspaces\\covariance-research-suite\\modules\\fusion\\experiments\\holdout\\run_temporal_gate.py": "994a3592d9bf0bf1c14c70bdcf519b1b56f4b8757690c373d96f046fea1de929",
+    "E:\\Codex\\Workspaces\\covariance-research-suite\\modules\\fusion\\src\\portfolio_risk\\models\\temporal_gate.py": "07ae636f997aa25e8dac4d306526b1db2b07cb49b6acd80ec7be3fad19365036"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "method": "cnn",
+  "objective": "euclidean",
+  "seed": 20261012,
+  "best_epoch": 2,
+  "stop_epoch": 32,
+  "validation": 0.0014753442791995597,
+  "parameters": 22999,
+  "test": 0.0007807228716721599,
+  "min_eigenvalue": 1.0096599146642186e-05
+}

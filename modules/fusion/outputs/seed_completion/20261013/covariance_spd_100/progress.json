@@ -1,0 +1,10 @@
+{
+  "method": "residual",
+  "objective": "euclidean",
+  "epoch": 50,
+  "best_epoch": 28,
+  "validation": 0.0016113842220946278,
+  "selected": 9,
+  "total": 10,
+  "seconds": 427.8752760887146
+}

@@ -1,0 +1,9 @@
+{
+  "method": "variance_correlation",
+  "objective": "frobenius",
+  "seed": 20261014,
+  "best_epoch": 11,
+  "stop_epoch": 41,
+  "validation": 0.0020518201163688323,
+  "parameters": 10913
+}

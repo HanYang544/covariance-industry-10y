@@ -1,0 +1,11 @@
+{
+  "method": "cholesky",
+  "objective": "euclidean",
+  "seed": 20261012,
+  "best_epoch": 42,
+  "stop_epoch": 72,
+  "validation": 0.0015343342764087223,
+  "parameters": 10583,
+  "test": 0.0017451104742908033,
+  "evaluation": "CPU float64 incremental evaluation after this run validation selection; training unchanged"
+}

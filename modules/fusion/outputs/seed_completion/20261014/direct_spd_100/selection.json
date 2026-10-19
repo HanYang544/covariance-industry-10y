@@ -1,0 +1,92 @@
+[
+  {
+    "method": "cholesky",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 14,
+    "stop_epoch": 44,
+    "validation": 0.0020799330202790037,
+    "parameters": 10583
+  },
+  {
+    "method": "cholesky",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 17,
+    "stop_epoch": 47,
+    "validation": 0.0016022005174928407,
+    "parameters": 10583
+  },
+  {
+    "method": "matrix_exp",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 30,
+    "stop_epoch": 60,
+    "validation": 0.0019771698533058634,
+    "parameters": 10583
+  },
+  {
+    "method": "matrix_exp",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 13,
+    "stop_epoch": 43,
+    "validation": 0.0015897107153052205,
+    "parameters": 10583
+  },
+  {
+    "method": "spectral_softplus",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 71,
+    "stop_epoch": 101,
+    "validation": 0.001993135993579551,
+    "parameters": 10583
+  },
+  {
+    "method": "spectral_softplus",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 56,
+    "stop_epoch": 86,
+    "validation": 0.001536851773413307,
+    "parameters": 10583
+  },
+  {
+    "method": "variance_correlation",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 11,
+    "stop_epoch": 41,
+    "validation": 0.0020518201163688323,
+    "parameters": 10913
+  },
+  {
+    "method": "variance_correlation",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 12,
+    "stop_epoch": 42,
+    "validation": 0.0016091885719058516,
+    "parameters": 10913
+  },
+  {
+    "method": "residual",
+    "objective": "frobenius",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0020290572683956272,
+    "parameters": 10583
+  },
+  {
+    "method": "residual",
+    "objective": "euclidean",
+    "seed": 20261014,
+    "best_epoch": 1,
+    "stop_epoch": 31,
+    "validation": 0.0015473624731045252,
+    "parameters": 10583
+  }
+]

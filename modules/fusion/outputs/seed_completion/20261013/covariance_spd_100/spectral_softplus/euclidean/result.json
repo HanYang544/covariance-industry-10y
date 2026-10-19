@@ -1,0 +1,11 @@
+{
+  "method": "spectral_softplus",
+  "objective": "euclidean",
+  "seed": 20261013,
+  "best_epoch": 44,
+  "stop_epoch": 74,
+  "validation": 0.0015002317645667976,
+  "parameters": 13591,
+  "test": 0.0010550259181996559,
+  "min_eigenvalue": 2.4548457484585775e-08
+}

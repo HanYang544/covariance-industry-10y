@@ -1,0 +1,9 @@
+{
+  "seeds": [
+    20261013,
+    20261014
+  ],
+  "additional_result_slots": 232,
+  "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "policy": "unchanged training recipe; reuse verified validation checkpoints; separate output; no test-based selection"
+}

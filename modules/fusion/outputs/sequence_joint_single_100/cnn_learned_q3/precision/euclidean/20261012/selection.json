@@ -1,0 +1,8 @@
+{
+  "fusion": "precision",
+  "objective": "euclidean",
+  "seed": 20261012,
+  "best_epoch": 14,
+  "stop_epoch": 44,
+  "validation": 0.0014762011031332475
+}

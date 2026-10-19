@@ -1,0 +1,38 @@
+{
+  "lr": 0.01,
+  "records": [
+    {
+      "method": "residual",
+      "objective": "euclidean",
+      "seed": 20261012,
+      "best_epoch": 10,
+      "stop_epoch": 40,
+      "validation": 0.0015216055337929535,
+      "parameters": 13591,
+      "test": 0.0008330101419134845,
+      "min_eigenvalue": 1.0281424600758013e-05
+    },
+    {
+      "method": "residual",
+      "objective": "euclidean",
+      "seed": 20261013,
+      "best_epoch": 28,
+      "stop_epoch": 58,
+      "validation": 0.0014876347798530795,
+      "parameters": 13591,
+      "test": 0.0007648233071976936,
+      "min_eigenvalue": 4.982686032271925e-08
+    },
+    {
+      "method": "residual",
+      "objective": "euclidean",
+      "seed": 20261014,
+      "best_epoch": 5,
+      "stop_epoch": 35,
+      "validation": 0.0015223330723169064,
+      "parameters": 13591,
+      "test": 0.0008150522309219309,
+      "min_eigenvalue": 1.0141749092371839e-05
+    }
+  ]
+}

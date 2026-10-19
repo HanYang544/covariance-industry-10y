@@ -1,0 +1,38 @@
+{
+  "lr": 0.01,
+  "records": [
+    {
+      "method": "matrix_exp",
+      "objective": "frobenius",
+      "seed": 20261012,
+      "best_epoch": 23,
+      "stop_epoch": 53,
+      "validation": 0.0018853902122071245,
+      "parameters": 13591,
+      "test": 0.0012002819373410963,
+      "min_eigenvalue": 4.1403863771396065e-06
+    },
+    {
+      "method": "matrix_exp",
+      "objective": "frobenius",
+      "seed": 20261013,
+      "best_epoch": 29,
+      "stop_epoch": 59,
+      "validation": 0.0019282187349919037,
+      "parameters": 13591,
+      "test": 0.0011396345943179423,
+      "min_eigenvalue": 2.5293565098152383e-06
+    },
+    {
+      "method": "matrix_exp",
+      "objective": "frobenius",
+      "seed": 20261014,
+      "best_epoch": 20,
+      "stop_epoch": 50,
+      "validation": 0.0019440736820287336,
+      "parameters": 13591,
+      "test": 0.0011683423087560933,
+      "min_eigenvalue": 1.0861317636011136e-05
+    }
+  ]
+}
